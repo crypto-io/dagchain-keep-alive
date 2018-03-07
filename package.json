@@ -1,0 +1,40 @@
+{
+  "name": "dagchain-keep-alive",
+  "version": "1.0.0",
+  "description": "Keeps a dagchain published",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crypto-io/dagchain-keep-alive.git"
+  },
+  "keywords": [
+    "dagchain",
+    "publish",
+    "resolve",
+    "keep-alive"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crypto-io/dagchain-keep-alive/issues"
+  },
+  "homepage": "https://github.com/crypto-io/dagchain-keep-alive#readme",
+  "backed": {
+    "bundles": [
+      {
+        "src": "src/index.js",
+        "dest": "index.js",
+        "format": "cjs"
+      }
+    ]
+  },
+  "dependencies": {
+    "ipfs-api": "^18.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
